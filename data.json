@@ -9,6 +9,38 @@
             "name" : "Mike",
             "age" : 30,
             "marks" : 80
+        },
+        {
+            "name" : "Sara",
+            "age" : 20,
+            "marks" : 70
+
+        },
+        {
+            "name" : "Nike",
+            "age" : 22,
+            "marks" : 60
+        },
+        {
+            "name" : "Sarah",
+            "age" : 21,
+            "marks" : 50
+        },
+        {
+            "name" : "Johan",
+            "age" : 20,
+            "marks" : 40
+        },
+        {
+            "name" : "Akku",
+            "age" : 22,
+            "marks" : 80
+        },
+        {
+            "name" : "Kunal",
+            "age" : 23,
+            "marks" : 90
         }
+        
     ]
 }
