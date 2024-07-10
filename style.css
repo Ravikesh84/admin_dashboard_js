@@ -16,7 +16,9 @@ body {
     padding: 0;
   }
   .left li {
-    margin-bottom: 20px;
+    margin-bottom: 20px 0;
+    display: flex;
+    align-items: center;
   }
   .left a:hover {
     text-decoration: underline;
@@ -25,7 +27,12 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
   }
+  .left i {
+    font-size: 18px;
+}
   .main2 {
     flex-grow: 1;
     padding: 20px;
@@ -64,12 +71,25 @@ nav h1 {
     background-color: #e5e7e9;
     display: flex;
 }
-nav i {
+/* .fa-user {
     font-size: 24px;
     margin-left: auto;
     margin-right: 30px;
-  }
+  } */
+  .user-info {
+    display: flex;
+    align-items: center;
+}
 
+.user-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.user-info h2 {
+    font-size: 18px;
+    margin: 0;
+}
   nav h2 {
     margin: 0;
     font-size: 18px;
@@ -136,6 +156,8 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  width: 400px;
+  
 }
 
 input[type="submit"] {
@@ -143,6 +165,7 @@ input[type="submit"] {
   color: #fff;
   border: none;
   padding: 10px;
+  width: 400px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;

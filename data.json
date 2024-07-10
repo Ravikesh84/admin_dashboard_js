@@ -25,12 +25,6 @@
       "id": "4"
     },
     {
-      "name": "Sarah",
-      "age": 21,
-      "marks": 50,
-      "id": "5"
-    },
-    {
       "name": "Johan",
       "age": 20,
       "marks": 40,
@@ -59,6 +53,12 @@
       "name": "Shristy",
       "age": "19",
       "marks": "90"
+    },
+    {
+      "id": "11",
+      "name": "Shivansh",
+      "age": "22",
+      "marks": "84"
     }
   ]
 }

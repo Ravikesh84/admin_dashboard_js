@@ -8,12 +8,21 @@ async function fun(){
         <td>${e.name}</td>
         <td>${e.age}</td>
         <td>${e.marks}</td>
+        <td> <button onclick="mydelete(${e.id})"> Delete </button> </td>
     </tr>
 
     `).join("")
     sh.innerHTML = d
 }
 fun()
+
+function mydelete(id){
+
+    fetch(`http://localhost:3000/student/${id}`,{
+        method:"DELETE"
+    })
+    .then((res)=>alert("Delete Successfully"))
+}
 
 function insert1(){
     let data ={
