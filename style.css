@@ -16,7 +16,7 @@ body {
     padding: 0;
   }
   .left li {
-    margin-bottom: 20px 0;
+    margin-bottom: 20px ;
     display: flex;
     align-items: center;
   }
@@ -30,19 +30,18 @@ body {
     margin-left: 10px;
     transition: color 0.3s ease;
   }
-  .left i {
-    font-size: 18px;
-}
   .main2 {
     flex-grow: 1;
     padding: 20px;
+
   }
 .left ul li {
-padding: 30px;
+padding: 15px;
 }
 .left ul li a {
     color: white;
 }
+
 nav{
     display: flex;
     justify-content: space-between  ;
@@ -52,6 +51,10 @@ nav{
     background-color: #5499c7;
     color: white;
     align-items: center;
+}
+nav i{
+  position: relative;
+  left: 600px;
 }
 nav h1 {
     margin: 0;
@@ -71,30 +74,13 @@ nav h1 {
     background-color: #e5e7e9;
     display: flex;
 }
-/* .fa-user {
-    font-size: 24px;
-    margin-left: auto;
-    margin-right: 30px;
-  } */
-  .user-info {
-    display: flex;
-    align-items: center;
+
+.fa-solid{
+  color: white;
 }
 
-.user-info i {
-    font-size: 24px;
-    margin-right: 10px;
-}
-
-.user-info h2 {
-    font-size: 18px;
-    margin: 0;
-}
-  nav h2 {
-    margin: 0;
-    font-size: 18px;
-  }
 /* ****************************table********************************************** */
+
 
 table {
     width: 100%;
@@ -174,4 +160,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+#edit{
+  display: none;
 }
