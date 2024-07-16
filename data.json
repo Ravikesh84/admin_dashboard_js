@@ -1,21 +1,22 @@
 {
   "student": [
     {
+      "id": "7",
       "name": "Akku",
       "author": 22,
-      "marks": 80,
-      "id": "7"
+      "price": 1818
     },
     {
       "id": "8",
       "name": "Ravikesh",
       "author": "22",
-      "marks": "75"
+      "price": 1818
     },
     {
       "id": "1",
-      "name": "kunal",
-      "author": "jk"
+      "name": "kunal Farkase",
+      "author": "jk",
+      "price": "1854"
     }
   ]
 }
