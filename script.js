@@ -103,7 +103,6 @@ async function update(id){
     <input type="text" value="${bc.price}" id="price1" > <br>
     
     <input type="submit" onclick="edit()" value="update">
-    
     `
     cd.innerHTML=de
 }
@@ -114,8 +113,6 @@ function edit(){
         name:document.getElementById('name1').value,
         author:document.getElementById('author1').value,
         price:document.getElementById('price1').value
-       
-
     }
     fetch(`http://localhost:3000/student/${stid}`,
         {
@@ -129,3 +126,17 @@ function edit(){
     .then(res=>alert("Data Edited"))
     .catch(res=>alert("Data did not edit"))
 }
+
+
+// ***************************************
+
+// let dt = new Date();
+// document.getElementById('date').innerHTML = dt.toLocaleDateString();
+
+const dateElement = document.getElementById('date');
+const dt = new Date();
+dateElement.innerHTML = dt.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});

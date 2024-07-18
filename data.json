@@ -1,22 +1,40 @@
 {
   "student": [
     {
-      "id": "7",
-      "name": "Akku",
-      "author": 22,
-      "price": 1818
+      "id": "1",  
+      "name": "Atomic Habits",
+      "author": "Ja",
+      "price": "$54"
     },
     {
-      "id": "8",
-      "name": "Ravikesh",
-      "author": "22",
-      "price": 1818
+      "id": "2",
+      "name": "Ikigai",
+      "author": "Hector Garcia",
+      "price": "$69"
+    },
+    {
+      "id": "3",
+      "name": "MahaBharat",
+      "author": "Sudarshan Ray",
+      "price": "$15"
+    },
+    {
+      "id": "4",
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": "$17"
+    },
+    {
+      "id": "5",
+      "name": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": "$22"
     },
     {
       "id": "1",
-      "name": "kunal Farkase",
-      "author": "jk",
-      "price": "1854"
+      "name": "book",
+      "author": "author",
+      "price": "$45"
     }
   ]
 }
